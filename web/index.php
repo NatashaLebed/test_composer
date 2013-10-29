@@ -20,12 +20,12 @@ $app->get('/', function() use ($app) {
 
     //Функция get_ip() определена в библиотеке super_lib.
     //Благодаря сгенерированному autoloader.php нужный файл библиотеки подключится автоматически
-    $ip = get_ip();
+    $ip = get_ip();> $timer->getCurrentTime(),
+        'ip' => 
 
     $templateVars = [
         'msg' => 'Hello, Cpmposer',
-        'time' => $timer->getCurrentTime(),
-        'ip' => $ip
+        'time' =$ip
     ];
 
     //Рендрим шаблон и выводим его в браузер пользователя
